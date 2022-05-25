@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02</title>
+</head>
+<body>
+    <h1>Usando variasveis</h1>
+    <script>
+        /*
+        1. Para comentar no script você pode usar / e * no inicio e * e / para mexar, caso você queira comentar só em uma linha basta usar //.
+
+        2. Para declarar uma varialvel em js basta colcoar 'var' e logo em seguida o nome da variavel.
+
+        3.Vamos usar o comadando console.log() para mostrar a execução dos códigos no console.
+
+        4. OS principais tipos de "var" no js são;
+            1. String = que é somente texto
+            2. numbers = são valores númericos;
+            3. booleans = que pode ser 'true' ou 'false'(verdadeiro ou falso)
+             
+        Além dessas 3 principais temos também:
+            1. Arrays = multi dimensional, onde vc pode definir varios ítens.
+            2. Object
+            3. Functions
+        */
+
+        //Exemplo 1:
+        //variavel do tipo númerica
+        var idade = 21;
+        console.log(idade);
+        //Exemplo 2:
+        //variavel  do tipo string
+        var nome =  'Jefferson';
+        console.log(nome);
+        //Exemplo 3:
+        //variavel do tipo booleana
+        var casado = false;
+        console.log(casado);
+        //Exemplo 4:
+        var formacao = ['HTML', 'CSS', 'JS'];
+        console.log(formacao);
+        // caso queira especficar um valor bata colocar [] depois da variavel e por o indice correspodente.
+        console.log(formacao[0])
+        //Exemplo 4:
+        var pessoa = {idade: 21, nome: 'Jefferson', casado: false};
+        console.log(pessoa.casado)
+
+        //OBs
+         
+        // variveis do tipo vazio são diferentes de variaveis do tipo nulo. 
+        var tex = ''; //var do tipo vazio 
+        var tex = null; //var do tipo nulo 
+    
+        //Usando operadores:
+        // var x = 10, y = 5
+        var x = 10;
+        var y = 5;
+        console.log(x - y);
+        
+        var z = 10, w = 5;
+        var res = z * w;
+        console.log(res)
+
+
+    </script>
+</body>
+</html>
